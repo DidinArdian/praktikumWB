@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form input</h2>
+    <form action="#" method="post" name="form-input" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Biodata</legend>
+            <label for="nim">Nim</label>
+            <input type="text" name="txtnim" required id="nim" placeholder="Masukan Nim Anda"> <br>
+            <br>
+            <label for="Nama">Nama</label>
+            <input type="text" name="txtname" required id="Nama" placeholder="Masukan Nama Anda"> <br>
+            <br>
+        <br>
+        <label for="Jenis Kelamin">Jenis kelamin : </label>
+        <input type="radio" name="rdjk" id="jk" value="P" required>Pria
+        <input type="radio" name="rdjk" id="jk" value="w" required>Wanita
+        <br>
+        <br>
+        <label for="Jurusan">Jurusan</label>
+        <select name="optjurusan" id="jurusan">
+            <option value="D3RPL">D3RPL</option>
+            <option value="PTI">PTI</option>
+            <option value="ILKOM">ILKOM</option>
+            <option value="D3SI">D3Si</option>
+        </select>
+        <br>
+    <br>
+    
+    <label>Hobby : </label>
+    <input type="checkbox" name="chkhobby[]" value="Komputer">komputer
+    <input type="checkbox" name="chkhobby[]" value="Musik">Musik
+    <input type="checkbox" name="chkhobby[]" value="Game">Game
+    <input type="checkbox" name="chkhobby[]" value="Bola">Bola
+    <br>
+
+    <br>
+    <label for="">Tanggal Lahir</label>
+    <input type="date" name="dttgl_Lahir">
+    <br>
+    <br>
+    <input type="submit" value="Simpan" name="btnsimpan">
+    <input type="reset" value="reset" name="btnreset">
+     <br>
+     <br>
+     <input type="submit" value="Kirim">
+
+        </fieldset>
+    </form>
+</body>
+</html>
